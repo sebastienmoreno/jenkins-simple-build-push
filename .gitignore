@@ -1,5 +1,9 @@
+# Dependencies
+.m2
+
 # Compiled class file
 *.class
+target
 
 # Log file
 *.log
