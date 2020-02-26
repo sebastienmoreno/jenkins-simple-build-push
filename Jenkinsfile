@@ -5,7 +5,7 @@ node {
   }
 
   stage('Build App') {
-    docker.image('maven:3.6-jdk-8-alpine').inside('--network ci') {
+    docker.image('maven:3.6-jdk-8-alpine').inside {
       sh 'mvn clean install'
     }
   }
